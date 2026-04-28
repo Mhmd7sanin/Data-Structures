@@ -9,19 +9,13 @@ class list
 {
 private:
 	using VALUE_TYPE = T;
-
-
 	struct node {
 		VALUE_TYPE _VAL;
 		node* NEXT;
 		node* PREV;
 	};
 
-
-	//using iterator = node*;
 	using reference = T&;
-
-
 
 	size_t _SIZE;
 	node* HEAD;
@@ -300,18 +294,6 @@ public:
 	}
 
 	// OPERATIONS
-	void sort() {
-
-	}
-
-	void reverse() {
-
-	}
-
-	void swap(list& other) {
-
-	}
-
 	void print() {
 		node* temp = HEAD;
 
