@@ -39,3 +39,15 @@
 
 # debug information files
 *.dwo
+
+*.json 
+*.tlog
+
+
+.vs
+x64
+
+Data-Structures.cpp
+Data-Structures.sln
+*.vcxproj 
+*.vcxproj.*
